@@ -178,15 +178,15 @@ def banner():
 def Delay(value):
     while not(value <= 1):
         value -= 0.123
-        print(f'''{v}[{xanh}ttc-tool{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [{vang}dqt-tool    {v}]''', '           ', end = '\r')
+        print(f'''{v}[{xanh}TTRANG XINK{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [{vang}Doro    {v}]''', '           ', end = '\r')
         sleep(0.02)
-        print(f'''{v}[{xanh}ttc-tool{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [ {vang}dqt-tool   {v}]''', '           ', end = '\r')
+        print(f'''{v}[{xanh}TTRANG XINK{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [ {vang}Doro   {v}]''', '           ', end = '\r')
         sleep(0.02)
-        print(f'''{v}[{xanh}ttc-tool{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [  {vang}dqt-tool {v}]''', '            ', end = '\r')
+        print(f'''{v}[{xanh}TTRANG XINK{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [  {vang}Doro {v}]''', '            ', end = '\r')
         sleep(0.02)
-        print(f'''{v}[{xanh}ttc-tool{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [   {vang}dqt-tool {v}]''', '           ', end = '\r')
+        print(f'''{v}[{xanh}TTRANG XINK{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [   {vang}Doro {v}]''', '           ', end = '\r')
         sleep(0.02)
-        print(f'''{v}[{xanh}ttc-tool{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [    {vang}dqt-tool{v}]''', '           ', end = '\r')
+        print(f'''{v}[{xanh}TTRANG XINK{v}] [{xanh}DELAY{v}] [{xanh}{str(value)[0:6]}{v}] [    {vang}Doro{v}]''', '           ', end = '\r')
         sleep(0.02)
 
 def decode_base64(encoded_str):
@@ -695,3 +695,4 @@ while True:
                             Delay(getjob.json()['countdown'])
             except:
                 pass
+
